@@ -90,7 +90,7 @@ const SortingVisualizer = () => {
         </div>
         </div>
         <div className='container' style={{overflowY:'auto'}}>
-            {
+            {//iterating
             array.map((value,idx)=>(
                 <div className='array-bar' key={idx} id={idx} style={{height: `${(value)}vh` ,width:size>7?`${50/size}vw`:'8vw',backgroundColor:"#fc0303"}}></div>
             ))
